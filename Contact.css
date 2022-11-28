@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+  background-color: rgb(178, 170, 170);
+    
+    height: 100vh;
+    font-family: 'Mukta', sans-serif;
+}
+.sidebar nav{
+    padding: 10px;
+    margin: 15px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 17px;
+    padding: 15px 0;
+
+}
+.sidebar nav li a{
+    
+    text-decoration: none;
+    color: black;
+
+}
+.xxx{
+   /* background-color:yellow; */
+    width: 90vw;
+    height: 100vh;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.container{
+
+    display: flex;
+}
+
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 35px;
+    font-family: 'Roboto Slab', serif;
+}
+.contactform h1 {
+    font-family: 'Mukta', sans-serif;
+    padding: 12 0;
+}
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+ width: 26vw;
+ border-radius:5px ;
+ margin: 6px 0 0 0;
+ padding: 3px ;
+
+}
+#emailHelp{
+    font-size: 10px;
+    color: blueviolet;
+    margin: 0 4px;
+}
+#form-check {
+
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogitem{
+    margin: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+.blogcontainer h1{
+    font-family: 'Roboto Slab', serif;
+    margin: 25x;
+}
+.myintro h2{
+    margin: 12px 12px;
+}
+.myintro p{
+    margin: 12px 12px;
+}
+@media (max-width: 1615px) {
+    
+    .sidebar{
+        transform: translate (-443px , 0px);
+        position: absolute;
+    }
+    
+    }

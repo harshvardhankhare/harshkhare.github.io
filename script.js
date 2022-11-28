@@ -1,0 +1,1 @@
+document.querySelector('.ham').style.display='none';

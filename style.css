@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+  background-color: rgb(178, 170, 170);
+    
+    height: 100vh;
+    font-family: 'Mukta', sans-serif;
+}
+.sidebar nav{
+    padding: 10px;
+    margin: 15px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 17px;
+    padding: 15px 0;
+
+}
+.sidebar nav li a{
+    
+    text-decoration: none;
+    color: black;
+
+}
+.xxx{
+   /* background-color:yellow; */
+    width: 90vw;
+    height: 100vh;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.container{
+
+    display: flex;
+}
+.infocontainer{
+   /*  background-color: aqua; */
+    margin: 80px auto;
+    height: 50vh ;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+.myinfo{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.mypic img{
+    height: 50vh;
+}
+.intro{
+font-size: 40px;
+}
+.name{
+font-size: 30px;
+font-weight: bold;
+font-family: 'Roboto Slab', serif;
+}
+.career{
+    font-size: 30px;
+}
+.about{
+font-size: 18px;
+
+}
+.buttons button {
+padding: 9px 20px;
+border-radius: 22px;
+background-color: aqua;
+color: white;
+font-weight: bold;
+font-size: 12px;
+margin: 0 3px ;
+}
+.buttons button:hover{
+    
+color: aqua;
+background-color: white;
+}
+.hamburger{
+position: absolute;
+cursor: pointer;
+top: 10px;
+left: 10px;
+
+}
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.ham{
+margin-left: 184px;
+}
+@media (max-width :1615px) {
+    
+/*.sidebar{
+    transform: translate(-443px,0px);
+    position: absolute;
+}*/
+
+}
